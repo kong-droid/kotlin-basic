@@ -44,3 +44,21 @@ kotlin-basic
 | Strings                | String                     |
 
 
+### (3) Collections
+```
+- 코틀린은 그룹 데이터를 관리하기 위해 collections 자료형을 제공한다.
+```
+| 컬렉션 타입 | 설명                      |
+|:-------|:------------------------|
+| Lists  | 중복되는 모든 목록 값            |
+| Sets   | 중복되지 않는 모든 목록 값         |
+| Maps   | 중복되지 않는 Key-Value 값 |
+
+1. List.kt
+```
+- listOf(): 읽기 전용 목록을 만든다.
+- mutableListOf(): 수정할 수 있는 목록을 만든다.
+- 목록의 타입을 선언할 때 <>안에 정의할 수 있다.
+```
+2. Set.kt
+3. Map.kt
