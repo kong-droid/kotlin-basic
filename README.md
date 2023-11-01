@@ -59,6 +59,13 @@ kotlin-basic
 - listOf(): 읽기 전용 목록을 만든다.
 - mutableListOf(): 수정할 수 있는 목록을 만든다.
 - 목록의 타입을 선언할 때 <>안에 정의할 수 있다.
+- first(): 목록의 첫번째 항목을 가져옴
+- last(): 목록의 마지막 항목을 가져옴
+- count(): 목록의 갯수
+- add(): 목록에 추가함
+- remove(): 특정 내용을 목록에서 제거함
+- Object in "content": 객체 내의 content를 찾음, boolean 반환
+- list의 2번째 객체 반환: list[1]
 ```
 2. Set.kt
 3. Map.kt
