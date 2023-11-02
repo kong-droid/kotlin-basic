@@ -90,4 +90,7 @@ kotlin-basic
 - count(): key-value 쌍의 갯수
 - put(): key-value값을 객체에 저장한다.
 - remove(): 입력한 key값을 삭제한다.
+- containKey(): key값으로 map내 객체 유무를 확인한다.
+- .keys: 키값을 배열로 가져옴
+- .values: 값을 배열로 가져옴
 ```

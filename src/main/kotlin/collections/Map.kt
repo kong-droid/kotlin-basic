@@ -22,4 +22,19 @@ fun main() {
     println(juiceMenu);
     // {apple = 100, kiwi = 190, coconut = 150}
 
+    // 객체 내 key-value 확인
+    println(readOnlyJuiceMenu.containsKey("kiwi"));
+
+    // key 값만 배열로 가져오기
+    println(readOnlyJuiceMenu.keys);
+
+    // value 값만 배열로 가져오기
+    println(readOnlyJuiceMenu.values);
+
+    // 객체 내 key값을 배열로 가져와 in으로 값 유무 확인하기
+    println("orange" in readOnlyJuiceMenu.keys);
+
+    // 객체 내 value값을 배열로 가져와 in으로 값 유무 확인하기
+    println(200 in readOnlyJuiceMenu.values);
+
 }
