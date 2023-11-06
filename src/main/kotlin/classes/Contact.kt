@@ -7,8 +7,31 @@ class Contact(val id: Int, var email: String= "example@gmail.com") {
     // 괄호 안에 val or var 없이 속성을 선언할 수 있으나 인스턴스가 생선된 후에는 이러한 속성에 엑세스할 수 없다.
     val category: String = "work"
 
+    // 클래스 안에서 객체의 행위를 함수로 지정할 수 있다.
+    fun printId() {
+        println(id);
+    }
+
 }
 
 fun main() {
-    val contact = Contact(1, "mary@gmail.com")
+    val contact = Contact(1, "mary@gmail.com");
+
+    // Prints the value of the property: email
+    // expect: mary@gmail.com
+    println(contact.email);
+
+    // Updates the value of the property: email
+    contact.email = "jane@gmail.com";
+
+    // Prints the new value of the property: email
+    // expect: jane@gmail.com
+    println(contact.email);
+
+    // string template
+    println("Their email address is: ${contact.email}");
+
+    // 클래스 내 함수 호출
+    contact.printId();
+
 }
