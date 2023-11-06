@@ -209,3 +209,19 @@ kotlin-basic
 | .toString()     | 클래스 인스턴스와 해당 속성을 읽을 수 있도록 문자열을 인쇄한다.         |
 | .equals() or == | 클래스 인스턴스를 비교한다.                              |
 | .copy()         | 다른 속성을 사용해 다른 클래스 인스턴스를 복사하고 클래스 인스턴스에 복사한다. |
+### (7) Null safety
+1. NullableTypes.kt
+```
+- 프로그램에서 null 값이 허용되는 경우 명시적으로 선언한다.  
+- null 값을 확인하고, 값이 감지되면 수행할 작업을 선언한다.
+```
+2. CheckForNullValues.kt
+```
+- null을 체크하는 조건문이 있다.
+- null이 아니거나 length이 0 아닌 경우를 체크할 수 있다. 
+```
+3. UseSafeCalls.kt
+```
+- ?. : nullable check 
+- ?: : elvis operator,  
+```
