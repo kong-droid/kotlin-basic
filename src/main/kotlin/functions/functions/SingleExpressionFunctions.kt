@@ -1,4 +1,4 @@
-package functions
+package functions.functions
 
 fun simpleSum(x: Int, y:Int):Int = x + y;
 

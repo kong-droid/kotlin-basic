@@ -130,6 +130,7 @@ kotlin-basic
 - do-while: 코드의 첫번째 조건을 확인 한후 반복문을 돌림
 ```
 ### (5) Functions
+#### 1) function
 1. Functions.kt
 ```
 - 함수 뒤 소괄호에 매개변수 적는다.
@@ -155,4 +156,30 @@ kotlin-basic
 ```
 - 간략하게 줄여 함수를 만들 수 있다.
 - 중괄호 대신 = 를 사용해 반환값을 표현할 수 있다.
+```
+#### 2) Lambda Expression
+1. AssignToVariable.kt
+```
+- 코틀린은 간결한 코드인 람다를 제공한다.
+- 파라미터는 -> 뒤에 간략하게 표현할 수 있다.
+- 함수의 바디값도 -> 뒤에 간략하게 표현할 수 있다.
+```
+2. PassToAnotherFunction.kt
+```
+- filter()을 사용해 컬렉션을 필터링 한다.
+- map()을 사용해 컬렉션을 루프를 돌려 연산한다.
+```
+3. FunctionTypes.kt
+```
+- 기존 함수 매개변수 지정 방식 (variable1, variable2) 이었으나 
+람다는 (variable1, variable2) -> 로 작성할 수 있다.
+- (message: String, prefix: String) 매개변수명과 타입 지정, -> String (리턴 타입)
+- {message, prefix -> "[$prefix] $message"} 리턴값에 맞춘 답
+```
+4. ReturnFromAFunction.kt
+5. InvokeSeparately.kt
+6. TrailingLambdas.kt
+```
+- 람다 식이 유일한 매개변수 일 경우 함수 괄호를 삭제 후 괄호 외부에 값을 작성할 수 있다.
+- fold() 함수를 통해 초기값과의 후행값으로 연산할 수 있다.
 ```

@@ -1,4 +1,4 @@
-package functions
+package functions.functions
 
 fun printMessageWithPrefixForDefault(message: String, prefix: String = "Info") {
     println("[$prefix] message");

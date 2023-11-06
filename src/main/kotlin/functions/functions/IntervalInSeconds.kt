@@ -1,4 +1,4 @@
-package functions
+package functions.functions
 
 fun intervalInSeconds(hours: Int = 0, minutes: Int = 0, seconds: Int = 0) =
     ((hours * 60) + minutes) * 60 + seconds;

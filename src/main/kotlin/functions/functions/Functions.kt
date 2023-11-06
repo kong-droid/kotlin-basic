@@ -1,4 +1,4 @@
-package functions
+package functions.functions
 
 /** memo **/
 // x, y의 자료형을 Int로 지정하고 반환값도 Int로 지정한다.
