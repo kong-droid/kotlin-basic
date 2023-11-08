@@ -204,7 +204,7 @@ kotlin-basic
 - 한번 지정하면 똑같은 코드를 여러번 작성하지 않아도된다.
 - 인스턴스를 쉽게 읽어올 수 있고, 클래스끼리 비교하고 복사하기 쉽다.
 ```
-| Function        | Description                                  |
+| 함수              | 설명                                           |
 |:----------------|:---------------------------------------------|
 | .toString()     | 클래스 인스턴스와 해당 속성을 읽을 수 있도록 문자열을 인쇄한다.         |
 | .equals() or == | 클래스 인스턴스를 비교한다.                              |
@@ -223,5 +223,6 @@ kotlin-basic
 3. UseSafeCalls.kt
 ```
 - ?. : nullable check 
-- ?: : elvis operator,  
+- ?: : elvis operator, 삼항연산자와 비슷하다. 
+- ex ) object ?: "defalut" 객체가 null이면 "default"를 반환한다.
 ```
